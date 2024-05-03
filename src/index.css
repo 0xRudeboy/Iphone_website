@@ -22,6 +22,22 @@ canvas {
   touch-action: none;
 }
 
+/* Scrollbar modification */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 0.375rem;
+}
+
 .screen-max-width {
   margin-inline-start: auto;
   margin-inline-end: auto;
